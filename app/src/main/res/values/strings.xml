@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PackingList</string>
+    <string name="mainTitle">Packing List</string>
+    <string name="checkBoxBeach">Beach</string>
+    <string name="checkBoxScubaDiving">Scuba Diving</string>
+    <string name="checkBoxSkiing">Skiing / Snowboarding</string>
+    <string name="checkBoxHiking">Hiking / Mountains</string>
+    <string name="mainTitlePurposeOfJourney">Activities</string>
+    <string name="checkBoxCityTrip">City Trip</string>
 </resources>
