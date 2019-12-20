@@ -146,4 +146,21 @@
         android:text="@string/mainTitleExpectedDetails"
         android:textSize="20dp" />
 
+    <Switch
+        android:id="@+id/switchWashing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switchWashing" />
+
+    <Switch
+        android:id="@+id/switchBackpacking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switchBackpacking" />
+
+    <EditText
+        android:id="@+id/edittextDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>

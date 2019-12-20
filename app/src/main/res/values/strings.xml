@@ -16,4 +16,6 @@
     <string name="radioButtonTempMixed">Mixed</string>
     <string name="radioButtonTempCold">Cold</string>
     <string name="mainTitleExpectedDetails">Details</string>
+    <string name="switchWashing">Washing while travelling possible</string>
+    <string name="switchBackpacking">Backpacking (save space!)</string>
 </resources>
