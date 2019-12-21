@@ -8,7 +8,7 @@
     <string name="mainTitlePurposeOfJourney">Activities</string>
     <string name="checkBoxCityTrip">City Trip</string>
     <string name="mainTitleExpectedConditions">Expected Conditions</string>
-    <string name="checkBoxRainWind">Rain / Wind</string>
+    <string name="checkBoxRainWind">Wind</string>
     <string name="checkBoxSnow">Snow</string>
     <string name="mainTitleExpectedTemperature">Expected Temperature</string>
     <string name="radioButtonTempHot">Hot</string>
@@ -18,4 +18,7 @@
     <string name="mainTitleExpectedDetails">Details</string>
     <string name="switchWashing">Washing while travelling possible</string>
     <string name="switchBackpacking">Backpacking (save space!)</string>
+    <string name="textViewNumberOfDays">Number of days</string>
+    <string name="checkBoxSunshine">Sunshine</string>
+    <string name="checkBoxRain">Rain</string>
 </resources>

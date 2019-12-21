@@ -68,19 +68,18 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="15dp"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/mainTitleExpectedConditions"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:text="@string/mainTitleExpectedConditions"
                 android:textSize="20sp" />
 
             <CheckBox
-                android:id="@+id/checkBoxRainWind"
+                android:id="@+id/checkBoxWind"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/checkBoxRainWind" />
@@ -90,6 +89,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/checkBoxSnow" />
+
+            <CheckBox
+                android:id="@+id/checkBoxSunshine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBoxSunshine" />
+
+            <CheckBox
+                android:id="@+id/checkBoxRain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBoxRain" />
 
         </LinearLayout>
 
@@ -146,21 +157,26 @@
         android:text="@string/mainTitleExpectedDetails"
         android:textSize="20dp" />
 
-    <Switch
-        android:id="@+id/switchWashing"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/switchWashing" />
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
-    <Switch
-        android:id="@+id/switchBackpacking"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/switchBackpacking" />
+        <TextView
+            android:id="@+id/textViewNumberOfDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textViewNumberOfDays" />
 
-    <EditText
-        android:id="@+id/edittextDays"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/editTextNumberOfDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+
+    </LinearLayout>
 
 </LinearLayout>
